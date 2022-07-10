@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #1f2937;
+  color: aliceblue;
+}
+header {
+  height: 100vh;
+  background: url("https://images.unsplash.com/photo-1641977957375-d1dae647ce17?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.headerdiv {
+  color: aliceblue;
+}
+.envogue {
+  margin-left: 3rem;
+  font-size: 2rem;
+  font-family: "Roboto Slab", serif;
+}
+.head {
+  margin-left: 5rem;
+  margin-top: 8rem;
+  font-size: 3rem;
+}
+.hero-button {
+  margin-left: 5rem;
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+
+main {
+  /* height: 70vh; */
+  background-color: white;
+  color: #1f2937;
+}
+.head-main {
+  /* margin-top: 20vh; */
+  margin-bottom: 20vh;
+  height: 1vh;
+  text-align: center;
+}
+.main1{
+    height: 50vh;
+}
+.accessories {
+  height: 30vh;
+  display: flex;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 5vw;
+  /* background-color: aquamarine; */
+}
+.flex-item{
+width: 12vw;
+/* background-color: yellow; */
+}
+.flex-image{
+height: 20vh;
+width: 12vw;
+}
+.flex-image2{
+height: 100%;
+width: 100%;
+border-radius: 8px;
+}
+.flex-text{
+    margin-top: .5rem;
+text-align: center;
+}
+footer {
+  height: 10vh;
+}
+.main2{
+height: 40vh;
+width: 70vw;
+ margin-left: auto;
+  margin-right: auto;
+}
+.quote{
+text-align: center;
+font-family: 'Edu VIC WA NT Beginner', cursive;
+font-size: 2rem;
+}
+.quote-signature{
+text-align: right;
+}
+.contact{
+text-align: center;
+}
+.copyright{
+    text-align: center;
+    
+}
+
+.anchor{
+    text-decoration: none;
+    color: aliceblue;
+}
